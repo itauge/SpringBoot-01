@@ -27,10 +27,12 @@ public class MainApplication {
 //            System.out.println(name);
 //        }
 
-        //3.从容器中获取组件
-        User user = run.getBean("user", User.class);
-        Pet pet = run.getBean("pet",Pet.class);
-        System.out.println(user.getPet() == pet);
+//        //3.从容器中获取组件
+//        User user = run.getBean("user", User.class);
+//        Pet pet = run.getBean("pet",Pet.class);
+//        System.out.println(user.getPet() == pet);
+
+
     }
 
 }

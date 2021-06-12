@@ -1,0 +1,44 @@
+person:
+  user-name: hey
+  #單引號會將 \n作爲字符串輸出 雙引號會作爲換行輸出
+#雙引號不會轉義
+  boss: true
+  birth: 2019/12/9
+  age: 18
+#  interest: [basketball,football]
+  interest:
+    - basketball
+    - football
+  animal: [pig,dog]
+#  score:
+#    english: 80
+#    math: 90
+  score: {english:80,math:90}
+  salarys:
+    - 12000
+    - 14000
+  pet:
+    name: pet1
+    weight: 20.45
+
+  allpets:
+    sick:
+      - {name: sickpig,weight: 12}
+      - name: sickcat
+        weight: 29
+      - name: sickworms
+        weight: 20
+    health:
+      - {name: healthpig,weight: 20}
+      - {name: healthcat,weight: 20}
+
+
+#spring:
+#  banner:
+#    location:
+#    image:
+#      bitdepth: 4
+#  cashe:
+#    type: redis
+#    redis:
+#      time-to-live: 11000

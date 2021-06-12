@@ -34,7 +34,7 @@ public class MyConfig {
 
     @Bean("pet")
     public Pet pet01(){
-        Pet pet = new Pet("test", "pig");
+        Pet pet = new Pet("test", 12.1);
         return pet;
     }
 }

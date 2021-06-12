@@ -9,5 +9,5 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Pet {
     private String name;
-    private String type;
+    private Double weight;
 }
